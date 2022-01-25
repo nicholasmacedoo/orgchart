@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f9f9fa;
+}
+body, html, input, textarea, button, label {
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+/* #4AA67B */
+
+.reactOrgChart .orgNodeChildGroup .nodeGroupLineVerticalMiddle,
+.reactOrgChart .nodeLineBorderTop {
+    border-color: #ccc;
+}
+
+/* Tree */
+#tree {
+    background: transparent;
+}
+
+.container { 
+    padding: 1rem;
+}
+
+ol {
+    margin-left: 2rem;
+}
+li {
+    padding: .25rem 0;
+}
+li::marker {
+    font-weight: bold;
+}

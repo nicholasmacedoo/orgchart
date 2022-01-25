@@ -1,0 +1,21 @@
+.container {
+    height: 60px;
+    width: 100%;
+    background: #2D3331;
+    color: #fff;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .brand p{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+}

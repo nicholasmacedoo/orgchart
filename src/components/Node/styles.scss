@@ -1,0 +1,55 @@
+.initechNode {
+    // border: solid 3px red;
+    background: #fff;
+    border-radius: 10px;
+    // width: 250px;
+    display: inline-block;
+    
+    .header {
+        padding: 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+        
+        a {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #4AA67B;
+            text-decoration: none;
+        }
+    
+        > img {
+            margin-bottom: .5rem;
+            border-radius: 50%;
+        }
+    }
+}
+
+#initechOrgChart .orgNodeChildGroup .nodeGroupLineVerticalMiddle {
+    border-right: solid 3px red
+}
+
+#initechOrgChart .nodeLineBorderTop {
+    border-top: solid 3px red;
+}
+
+.footer {
+    padding: 1rem 3rem;
+    background: #4AA67B;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+        height: 2rem;
+        width: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;    
+        border: 0;
+        border-radius: 50%;
+        background: rgba($color: #000000, $alpha: .1);
+        color: #fff;
+    }
+}
